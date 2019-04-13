@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+}
+#div1>img{
+	    	width: 100%;
+}
+#div2>img{
+	    	width: 100%;
+	    	border-radius: 5%;
+}
+#div3{
+	display: flex;
+	flex-wrap: wrap;/*自动换行，回滚到100%*/
+	align-items: center;/*纵向居中*/
+}
+#div3>img{
+			width: 20%;
+}
+#div4{
+	display: flex;
+}
+#div5{
+	display: flex;
+	align-items: center;/*纵向居中*/
+	justify-content: space-between;
+}
+#div5>img{
+	width: 30%;
+	
+}
+#div6>#div6_01>img{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+#font1{
+	font-size: 13px;
+	background-color: black;
+	color: white;
+	margin-left: 29%;
+	
+}
+#font2{
+	font-size: 13px;
+	background-color: orange;
+	color: white;
+	
+}
+#div6_02{
+	position: absolute;
+	margin: 4px;
+	display: flex;/*弹性盒子*/
+	align-items: center;/*纵向居中*/
+	justify-content: space-between;
+}
+#div6_02>img{
+	width: 23%;
+}
+#font{
+	width: 280px;
+	position: absolute;
+	border: 2px solid red;
+	top: 587px;
+}
